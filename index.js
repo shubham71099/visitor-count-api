@@ -36,6 +36,5 @@ app.post("/visitCount", async function (req, res) {
 });
 
 app.listen(3000, function (req, res) {
-  console.log("I will allow requests from ", process.env.ORIGINS.split(" "));
-  console.log("listening to server 3000");
+  console.log("Server listening on port 3000");
 });
